@@ -49,7 +49,7 @@
                             <archive>
                                 <manifest>
                                     <mainClass>
-                                        uk.jessjenkins.codegen.client.App
+                                        uk.jessjenkins.codegen.app.App
                                     </mainClass>
                                 </manifest>
                             </archive>

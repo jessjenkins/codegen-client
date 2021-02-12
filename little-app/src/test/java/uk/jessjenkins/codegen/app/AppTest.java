@@ -1,4 +1,4 @@
-package uk.jessjenkins.codegen.client;
+package uk.jessjenkins.codegen.app;
 
 import static org.junit.Assert.assertTrue;
 
