@@ -1,0 +1,29 @@
+swagger: "2.0"
+info:
+  description: "Example API"
+  version: "0.0.1"
+  title: "example api"
+schemes:
+  - "http"
+host: "localhost:8080"
+paths:
+  /hello:
+    get:
+      summary: "Get a greeting"
+      produces:
+        - application/json
+      responses:
+        200:
+          description: A greeting object
+          schema:
+            $ref: '#/definitions/Message'
+
+definitions:
+  Message:
+    type: object
+    required:
+      - msg
+    properties:
+      msg:
+        type: string
+        example: "Hello"
